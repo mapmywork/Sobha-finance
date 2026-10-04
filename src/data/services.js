@@ -1,0 +1,88 @@
+import { User, Briefcase, Building2, Home, Landmark, Car, FolderKanban, Cog, Wallet, GraduationCap, Sprout, ArrowRightLeft } from 'lucide-react';
+
+export const services = [
+  {
+    id: 'personal-loans',
+    title: 'Personal Loans',
+    description: 'Quick, hassle-free funding for salaried & self-employed.',
+    icon: User,
+    color: 'bg-red-50 text-red-600',
+  },
+  {
+    id: 'business-loans',
+    title: 'Business Loans',
+    description: 'Boost business growth with easy financing.',
+    icon: Briefcase,
+    color: 'bg-red-50 text-red-600',
+  },
+  {
+    id: 'msme-loans',
+    title: 'MSME Loans',
+    description: 'Government-backed funding for small enterprises.',
+    icon: Building2,
+    color: 'bg-red-50 text-red-600',
+  },
+  {
+    id: 'home-loans',
+    title: 'Home Loans',
+    description: 'Affordable EMIs for your dream home.',
+    icon: Home,
+    color: 'bg-red-50 text-red-600',
+  },
+  {
+    id: 'loan-against-property',
+    title: 'Loan Against Property',
+    description: 'Use your property to access high-value funds.',
+    icon: Landmark,
+    color: 'bg-red-50 text-red-600',
+  },
+  {
+    id: 'car-loans',
+    title: 'Car Loans',
+    description: 'Finance for new or pre-owned vehicles.',
+    icon: Car,
+    color: 'bg-red-50 text-red-600',
+  },
+  {
+    id: 'project-finance',
+    title: 'Project Finance',
+    description: 'Structured funding for large-scale projects.',
+    icon: FolderKanban,
+    color: 'bg-red-50 text-red-600',
+  },
+  {
+    id: 'machinery-loans',
+    title: 'Machinery Loans',
+    description: 'Get equipment for manufacturing & services.',
+    icon: Cog,
+    color: 'bg-red-50 text-red-600',
+  },
+  {
+    id: 'working-capital-loans',
+    title: 'Working Capital Loans',
+    description: 'Keep operations running smoothly.',
+    icon: Wallet,
+    color: 'bg-red-50 text-red-600',
+  },
+  {
+    id: 'education-loans',
+    title: 'Education Loans',
+    description: 'Support for studies in India or abroad.',
+    icon: GraduationCap,
+    color: 'bg-red-50 text-red-600',
+  },
+  {
+    id: 'agriculture-loans',
+    title: 'Agriculture Loans',
+    description: 'Finance for farming needs & agri-business.',
+    icon: Sprout,
+    color: 'bg-red-50 text-red-600',
+  },
+  {
+    id: 'balance-transfer',
+    title: 'Balance Transfer & Top-Up',
+    description: 'Lower EMIs or get extra funding easily.',
+    icon: ArrowRightLeft,
+    color: 'bg-red-50 text-red-600',
+  },
+];
